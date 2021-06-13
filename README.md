@@ -4,7 +4,7 @@ Esse repositório disponibiliza uma versão zero de uma API de cadastro de usuá
 
 ## DESAFIOS
 
-Os desafios podem ser encontrado no arquivo [DESAFIOS.md](https://github.com/GuillaumeFalourd/java-training-api/tree/main/DESAFIOS.md) e correspondem (atualmente) ao esperado de desenvolvedores **JUNIORS**.
+Os desafios podem ser encontrado no arquivo [DESAFIOS.md](https://github.com/GuillaumeFalourd/java-training-api/tree/main/DESAFIOS.md) e correspondem (atualmente) ao nível de conhecimento esperado por desenvolvedores **JUNIORS**.
 
 ## Requisitos
 
