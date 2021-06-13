@@ -1,4 +1,6 @@
-# DESAFIO
+# DESAFIOS
+
+Esse arquivos contem sugestões de desafios para melhorar a API contida nesse repositório.
 
 ## O que melhorar nesta API?
 
