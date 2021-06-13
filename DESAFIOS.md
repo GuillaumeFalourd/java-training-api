@@ -88,7 +88,7 @@ Seguem algumas referências:
 
 ### Testes Unitários
 
-Testes unitários aumentam a qualidade de nosso codigo, eles testam o funcionamento de nossos métodos.
+Testes unitários aumentam a qualidade de nosso codigo, eles testam o funcionamento de nossos métodos, um cenário de cada vez (sucessos e erros).
 
 Seguem algumas referências:
 
@@ -100,11 +100,11 @@ Seguem algumas referências:
 
 #### Tarefa
 
-- Implementar os testes unitarios da camada de `Service` e de `Controller` da API.
+- Implementar os testes unitárioa da camada de `Service` e de `Controller` da API.
 
-## Quarta parte (TODO)
+## Quarta parte
 
-Integração com outras APIs são frequentes, e existem varias maneiras de fazer isso, usando Rest Template ou Feign por exemplo.
+Integração com outras APIs são frequentes, e existem varias maneiras de fazer isso, usando `Rest Template` ou `FeignClient` por exemplo.
 
 Seguem algumas referências a respeito:
 
