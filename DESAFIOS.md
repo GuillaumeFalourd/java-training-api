@@ -2,6 +2,8 @@
 
 Esse arquivos contem sugestões de desafios para melhorar a API contida nesse repositório.
 
+**Apos cada parte deste desafio, como entrega dessa atividade, me envie o link do repositório criado (no LinkedIn ou por email).**
+
 ## O que melhorar nesta API?
 
 Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaixo para alinhar o conhecimento sobre Java, REST, Spring, SOLID e o padrão MVC (Model View Controller):
