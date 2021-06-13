@@ -1,10 +1,10 @@
 # java-training-api
 
-Esse repositório disponibiliza uma versão zero de uma API de cadastro de usuários (Users) na pasta [src](https://github.com/GuillaumeFalourd/java-training-api/tree/main/src) *a ser melhorada*.
+Esse repositório disponibiliza uma versão zero de uma API de cadastro de usuários (Users) na pasta [SRC](https://github.com/GuillaumeFalourd/java-training-api/tree/main/src) *a ser melhorada*.
 
 ## DESAFIOS
 
-Os desafio podem ser encontrado no arquivo [DESAFIOS.md](https://github.com/GuillaumeFalourd/java-training-api/tree/main/DESAFIOS.md).
+Os desafios podem ser encontrado no arquivo [DESAFIOS.md](https://github.com/GuillaumeFalourd/java-training-api/tree/main/DESAFIOS.md).
 
 ## Requisitos
 
