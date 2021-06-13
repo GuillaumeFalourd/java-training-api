@@ -37,10 +37,10 @@ Para rodar a aplicação localmente, executar o metodo `main` da classe [Trainin
 
 ```json
 {
+    "id": 1
     "name":"Name",
     "cpf":"cpf",
     "email":"email",
     "birthDate":"1900-01-01",
-    "vehicles": ["..."]
 }
 ```
