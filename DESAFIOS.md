@@ -27,9 +27,8 @@ Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do 
 #### Tarefa
 
 - Crie uma camada de `Service` para ser usada entre a camada de `Controller` e de `Repository`.
-
-Atual: *Controller --> Repository*
-Esperado: *Controller --> Service --> Repository*
+  - Atual: *Controller --> Repository*
+  - Esperado: *Controller --> Service --> Repository*
 
 *Usar uma camada de `Service` é uma boa prática para separar as responsabilidades no projeto, pois as regras de negocio serão implementada nesta camada no lugar de ficar na camada de Controller (que tem como responsabilidade de ser a camada de entrada e saida de dados).*
 
@@ -40,9 +39,8 @@ Esperado: *Controller --> Service --> Repository*
 #### Tarefa
 
 - Complete o CRUD com os endpoints de `UPDATE` e `DELETE` usando o CPF como *PathVariable*.
-
-Atual: *POST + GET*
-Esperado: *POST + GET + PUT + DELETE*
+  - Atual: *POST + GET*
+  - Esperado: *POST + GET + PUT + DELETE*
 
 ## Segunda parte
 
