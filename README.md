@@ -41,6 +41,6 @@ Para rodar a aplicação localmente, executar o metodo `main` da classe [Trainin
     "name":"Name",
     "cpf":"cpf",
     "email":"email",
-    "birthDate":"1900-01-01",
+    "birthDate":"1900-01-01"
 }
 ```
