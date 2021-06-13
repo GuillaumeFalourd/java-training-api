@@ -132,5 +132,5 @@ Seguem algumas referências a respeito:
 
 - [Guia completo SQL](https://www.devmedia.com.br/guia/guia-completo-de-sql/38314)
 - [Dicas SQL](https://medium.com/@alexandre.malavasi/25-dicas-e-boas-pr%C3%A1ticas-de-banco-de-dados-para-desenvolvedores-7a60bfc28f1f)
-- [(Boas práticas SQL](https://www.devmedia.com.br/boas-praticas-de-programacao-pl-sql-e-um-pouco-de-tunning-dia-a-dia/2424)
-- [FAQ SQL](hhttps://www.luis.blog.br/20-perguntas-e-respostas-sobre-a-linguagem-sql-para-banco-de-dados.html)
+- [Boas práticas SQL](https://www.devmedia.com.br/boas-praticas-de-programacao-pl-sql-e-um-pouco-de-tunning-dia-a-dia/2424)
+- [FAQ SQL](https://www.luis.blog.br/20-perguntas-e-respostas-sobre-a-linguagem-sql-para-banco-de-dados.html)
