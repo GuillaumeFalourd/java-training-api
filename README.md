@@ -5,6 +5,7 @@ Esse repositório disponibiliza uma versão zero de uma API de cadastro de usuá
 ## Requisitos
 
 - Maven
+- Spring
 - Java 8 (11 melhor)
 
 Baixar as dependências: na raiz do projeto: executar o comando `mvn clean install`.
