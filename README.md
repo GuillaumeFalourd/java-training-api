@@ -13,7 +13,7 @@ Para rodar a aplicação localmente, executar o metodo `main` da classe [Trainin
 
 ## Endpoint disponíveis (v0)
 
-### Criar User
+### Criar usuário
 
 **POST:** `http://localhost:8080/users` com *body*:
 
@@ -26,7 +26,7 @@ Para rodar a aplicação localmente, executar o metodo `main` da classe [Trainin
 }
 ```
 
-### Obter User com CPF
+### Obter usuário com CPF
 
 **GET:** `http://localhost:8080/users/{cpf}` vai retornar:
 
