@@ -1,0 +1,5 @@
+br/com/training/controller/UserController.class
+br/com/training/TrainingApiApplication.class
+br/com/training/model/User$LocalDateSpringConverter.class
+br/com/training/model/User.class
+br/com/training/repository/UserRepository.class
