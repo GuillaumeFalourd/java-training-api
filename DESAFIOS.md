@@ -111,7 +111,9 @@ Seguem algumas referências:
 
 ## Quarta parte
 
-Integração com outras APIs são frequentes, e existem varias maneiras de fazer isso, usando `Rest Template` ou `FeignClient` por exemplo.
+### Integrações
+
+Integrações entre APIs são frequentes, e existem varias maneiras de fazer isso, usando `Rest Template` ou `FeignClient` por exemplo.
 
 Seguem algumas referências a respeito:
 
