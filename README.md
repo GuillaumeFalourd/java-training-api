@@ -11,6 +11,8 @@ Os desafios podem ser encontrado no arquivo [DESAFIOS.md](https://github.com/Gui
 - Maven
 - Spring
 - Java 8 (11 melhor)
+- Hibernate
+- JPA
 
 Baixar as dependências: na raiz do projeto: executar o comando `mvn clean install`.
 
