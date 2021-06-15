@@ -65,6 +65,7 @@ Quando usamos DTOs, queremos aproveitar para validar que os dados enviados para 
 
 Seguem algumas referências a respeito:
 
+- [Validador Spring](https://www.zup.com.br/blog/spring-validation-o-que-e?utm_source=google-chat&utm_medium=interno&utm_campaign=gc-geral)
 - [Validador dados com anotações](https://www.devmedia.com.br/bean-validation-1-1-validando-dados-com-anotacoes/30070)
 - [Bean validation](https://emmanuelneri.com.br/2017/05/30/criando-validacoes-de-bean-validation-customizadas/)
 - [Validador Hibernate](https://www.devmedia.com.br/hibernate-validator-validando-dados-no-back-end-com-anotacoes/37979)
