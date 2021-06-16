@@ -115,7 +115,7 @@ Seguem algumas referências:
 
 #### Tarefa
 
-- Implementar os testes unitárioa da camada de `Service` e de `Controller` da API.
+- Implementar os testes unitários da camada de `Service` e de `Controller` da API.
 
 ## Quarta parte
 
@@ -131,11 +131,11 @@ Seguem algumas referências a respeito:
 
 #### Tarefa
 
-- Implementar um segundo controller `AddressController` com um CRUD de cadastro de endereços para usuarios cadastrados, usando o [serviço da VIACEP](https://viacep.com.br/) para buscar um endereço baseado no seu CEP
+- Implementar um segundo controller `AddressController` com um CRUD de cadastro de endereços para usuarios cadastrados, usando o [serviço da VIACEP](https://viacep.com.br/) para buscar um endereço baseado no seu CEP.
 
 *Essa implementação vai envolver não apenas um Controller, mas um AddressService, Address DAO e DTOS, assim que AddressRepository.*
 
-- Implementar os testes unitarios das camadas de `Service` e `Controller` relacionados a entidade de `Address`.
+- Implementar os testes unitários das camadas de `Service` e `Controller` relacionados a entidade de `Address`.
 
 ## Bônus
 
