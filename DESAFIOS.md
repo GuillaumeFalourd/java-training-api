@@ -2,7 +2,7 @@
 
 Esse arquivos contem sugestões de desafios para melhorar a API contida nesse repositório.
 
-**Apos cada parte deste desafio, como entrega dessa atividade, me envie o link do repositório criado (no LinkedIn ou por email).**
+**Após cada parte deste desafio, como entrega dessa atividade, me envie o link do repositório criado (no Linkedin ou por email).**
 
 ## O que melhorar nesta API?
 
@@ -20,7 +20,15 @@ Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaix
 
 ## Primeira parte
 
-Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do projeto, e completar o CRUD (Create, Read, Udpate, Delete) do Controller.
+Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do projeto, e completar o CRUD (Create, Read, Update e Delete) do Controller.
+
+### Versionando seu código
+
+#### Tarefa
+
+- O versionamento do nosso código é algo muito importante, para cada tarefa que está sendo solicitada for concluída, faça um commit para o seu repositório.
+
+[Referência a respeito do GIT](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
 ### Camada de Service
 
@@ -46,7 +54,7 @@ Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do 
 
 ### Uso de DTO
 
-Vamos agora aplicar o conceito de DTO (Data Transfer Object) ao nosso projeto. Para não usar nosso DAO (Data Access Object, aka Entidades) como objeto de entrada de entrada e saida de nosso projeto. Isso é geralmente considerado uma boa prática no desenvolvimento de API para evitar manipular dados desnecessarios ou retornar dados sigilosos.
+Vamos agora aplicar o conceito de DTO (Data Transfer Object) ao nosso projeto. Para não utilizar as nossas Entidades como objeto de entrada e saida do nosso projeto. Isso é geralmente considerado uma boa prática no desenvolvimento de API para evitar manipular dados desnecessarios ou retornar dados sigilosos.
 
 Seguem algumas referências a respeito:
 
@@ -57,7 +65,7 @@ Seguem algumas referências a respeito:
 
 #### Tarefa
 
-- Crie os DTOs para usar como objetos de requisição (`UserForm`) e respostas (`UserResponse`) na camada de `Controller`, e faça a adequação dos objetos (DTO para DAO e vice versa) na camada de `Service`.
+- Crie os DTOs para usar como objetos de requisição (`UserForm`) e respostas (`UserResponse`) na camada de `Controller`, e faça a adequação dos objetos (DTO para Entidades e vice versa) na camada de `Service`.
 
 ### Uso de anotações de validações
 
