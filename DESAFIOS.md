@@ -2,7 +2,7 @@
 
 Esse arquivos contem sugestões de desafios para melhorar a API contida nesse repositório.
 
-**Após cada parte deste desafio, como entrega da atividade, podem enviar o link do repositório criado (no LinkedIn ou por email).**
+**Após cada parte deste desafio, como entrega da atividade, enviar o link do repositório criado (no LinkedIn ou por email).**
 
 ## O que melhorar nesta API?
 
@@ -135,23 +135,10 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 
 ## Quinta Parte
 
-### Integrações
+Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver dentro da lista abaixo:
 
-Integrações entre APIs são frequentes, e existem varias maneiras de fazer isso, usando `Rest Template` ou `FeignClient` por exemplo.
-
-Seguem algumas referências a respeito:
-
-- [Feign](https://domineospring.wordpress.com/2017/06/02/feign-uma-forma-simples-para-consumir-servicos/)
-- [Rest Template](https://www.ti-enxame.com/pt/java/como-post-forma-dados-com-spring-resttemplate/825640550/)
-- [Diferenças Feign e Rest Template](https://www.ti-enxame.com/pt/spring-boot/quais-sao-vantagens-e-desvantagens-do-uso-de-simulacao-em-relacao-ao-resttemplate/835724322/)
-
-#### Tarefa Endereços
-
-- Implementar um segundo controller `AddressController` com um CRUD de cadastro de endereços para usuarios cadastrados, usando o [serviço da VIACEP](https://viacep.com.br/) para buscar um endereço baseado no seu CEP.
-
-*Essa implementação vai envolver não apenas um Controller, mas um AddressService, Address DAO e DTOS, assim que AddressRepository.*
-
-- Implementar os testes unitários das camadas de `Service` e `Controller` relacionados a entidade de `Address`.
+- [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/ENDERECO.md): Nível 1.
+- [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/BANCO.md): Nível 2.
 
 ## Bônus
 
