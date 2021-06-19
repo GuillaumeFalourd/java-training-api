@@ -18,13 +18,13 @@ Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaix
 - [Introdução ao Padrão MVC](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308)
 - [Evolução do MVC para REST](https://imasters.com.br/devsecops/a-evolucao-do-mvc-para-rest#:~:text=Em%20outras%20palavras%2C%20REST%20garante,sem%20acoplamento%20entre%20as%20partes.&text=Isso%20garante%20que%20podemos%20construir,quem%20vai%20usar%20estes%20dados)
 
-## Primeira parte
+## 1️⃣ Primeira parte
 
 Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do projeto, e completar o CRUD (Create, Read, Update e Delete) do Controller.
 
 ### Versionando seu código
 
-#### Tarefa
+#### Tarefa 🔀
 
 - O versionamento do nosso código é algo muito importante, para cada tarefa que está sendo solicitada for concluída, faça um commit para o seu repositório.
 
@@ -32,7 +32,7 @@ Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do 
 
 ### Camada de Service
 
-#### Tarefa
+#### Tarefa 🔛
 
 - Crie uma camada de `Service` para ser usada entre a camada de `Controller` e de `Repository`.
   - Atual: *Controller --> Repository*
@@ -44,13 +44,13 @@ Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do 
 
 ### CRUD completo
 
-#### Tarefa
+#### Tarefa 🚀
 
 - Complete o CRUD com os endpoints de `UPDATE` e `DELETE` usando o CPF como *PathVariable*.
   - Atual: *POST + GET*
   - Esperado: *POST + GET + PUT + DELETE*
 
-## Segunda parte
+## 2️⃣ Segunda parte
 
 ### Uso de DTO
 
@@ -63,7 +63,7 @@ Seguem algumas referências a respeito:
 - [Restrições DTOs](https://dev.to/renatasfraga/java-annotations-no-spring-crie-restricoes-em-suas-dtos-2nfj)
 - [DTO e Entidade](https://cursos.alura.com.br/forum/topico-caracteristicas-das-colunas-das-entidades-nos-formularios-dtos-no-momento-da-validacao-88815)
 
-#### Tarefa
+#### Tarefa 🏗
 
 - Crie os DTOs para usar como objetos de requisição (`UserForm`) e respostas (`UserResponse`) na camada de `Controller`, e faça a adequação dos objetos (DTO para Entidades e vice versa) na camada de `Service`.
 
@@ -81,11 +81,11 @@ Seguem algumas referências a respeito:
 - [Regex](https://medium.com/@alexandreservian/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f)
 - [Mapeamento Hibernate (DAO)](https://www.devmedia.com.br/mapeamento-hibernate-configurando-tabelas-e-colunas/29526)
 
-#### Tarefa
+#### Tarefa ♻️
 
 - Atualize as anotações necessárias para validar o formato dos campos de `CPF`, `EMAIL` e `NOME` do DTO de requisição (UserForm).
 
-## Terceira parte
+## 3️⃣ Terceira parte
 
 ### Tratamento de Exceções
 
@@ -97,7 +97,7 @@ Seguem algumas referências:
 - [Exception Java](https://www.devmedia.com.br/trabalhando-com-excecoes-em-java/27601)
 - [Tratar Exceções Java](https://www.devmedia.com.br/como-tratar-excecoes-na-linguagem-java/39163)
 
-#### Tarefa
+#### Tarefa 🔎
 
 - Crie uma classe de `Exception Handler` para retornar `mensagens` e `http status` amigáveis caso erros esperados ou inesperados ocorram no uso da sua API.
 
@@ -113,15 +113,15 @@ Seguem algumas referências:
 - [Testando codigo Java com Mockito](https://medium.com/cwi-software/testando-seu-c%C3%B3digo-java-com-o-mockito-framework-8bea7287460a)
 - [Testes Unitarios em Controller](https://dev.to/luizleite_/como-fazer-testes-unitarios-em-controllers-de-um-app-spring-boot-1bbm)
 
-#### Tarefa
+#### Tarefa ⚙️
 
 - Implementar os testes unitários da camada de `Service` e de `Controller` da API.
 
-## Quarta parte
+## 4️⃣ Quarta parte
 
 ### Documentação
 
-Uma das habilidades mais importantes que um bom profissional de software deve ter é da escrita de documentações de alta qualidade. Para muitos, essa é uma tarefa difícil e traumática. Por exemplo, se uma API não for bem documentada, provavelmente, seus usuários encontrarão dificuldades para entender o seu funcionamento. Isso certamente influenciará na utilização dos serviços oferecidos em sua API. 
+Uma das habilidades mais importantes que um bom profissional de software deve ter é da escrita de documentações de alta qualidade. Para muitos, essa é uma tarefa difícil e traumática. Por exemplo, se uma API não for bem documentada, provavelmente, seus usuários encontrarão dificuldades para entender o seu funcionamento. Isso certamente influenciará na utilização dos serviços oferecidos em sua API.
 
 Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo você automatizar a criação da sua documentação:
 
@@ -129,11 +129,11 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 - [Documentando uma API Spring Boot com o Swagger](https://www.treinaweb.com.br/blog/documentando-uma-api-spring-boot-com-o-swagger)
 - [Spring Boot e Swagger, documentando e testando a sua API REST](http://www.ciceroednilson.com.br/spring-boot-e-swagger-documentando-e-testando-a-sua-api-rest/)
 
-#### Tarefa
+#### Tarefa 📚
 
 - Automatizar a documentação dos endpoints da API usando `Swagger`.
 
-## Quinta Parte
+## 5️⃣ Quinta Parte
 
 Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver dentro da lista abaixo:
 
