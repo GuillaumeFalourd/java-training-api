@@ -119,26 +119,6 @@ Seguem algumas referências:
 
 ## Quarta parte
 
-### Integrações
-
-Integrações entre APIs são frequentes, e existem varias maneiras de fazer isso, usando `Rest Template` ou `FeignClient` por exemplo.
-
-Seguem algumas referências a respeito:
-
-- [Feign](https://domineospring.wordpress.com/2017/06/02/feign-uma-forma-simples-para-consumir-servicos/)
-- [Rest Template](https://www.ti-enxame.com/pt/java/como-post-forma-dados-com-spring-resttemplate/825640550/)
-- [Diferenças Feign e Rest Template](https://www.ti-enxame.com/pt/spring-boot/quais-sao-vantagens-e-desvantagens-do-uso-de-simulacao-em-relacao-ao-resttemplate/835724322/)
-
-#### Tarefa
-
-- Implementar um segundo controller `AddressController` com um CRUD de cadastro de endereços para usuarios cadastrados, usando o [serviço da VIACEP](https://viacep.com.br/) para buscar um endereço baseado no seu CEP.
-
-*Essa implementação vai envolver não apenas um Controller, mas um AddressService, Address DAO e DTOS, assim que AddressRepository.*
-
-- Implementar os testes unitários das camadas de `Service` e `Controller` relacionados a entidade de `Address`.
-
-## Quinta Parte
-
 ### Documentação
 
 Uma das habilidades mais importantes que um bom profissional de software deve ter é da escrita de documentações de alta qualidade. Para muitos, essa é uma tarefa difícil e traumática. Por exemplo, se uma API não for bem documentada, provavelmente, seus usuários encontrarão dificuldades para entender o seu funcionamento. Isso certamente influenciará na utilização dos serviços oferecidos em sua API. 
@@ -152,6 +132,26 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 #### Tarefa
 
 - Automatizar a documentação dos endpoints da API usando `Swagger`.
+
+## Quinta Parte
+
+### Integrações
+
+Integrações entre APIs são frequentes, e existem varias maneiras de fazer isso, usando `Rest Template` ou `FeignClient` por exemplo.
+
+Seguem algumas referências a respeito:
+
+- [Feign](https://domineospring.wordpress.com/2017/06/02/feign-uma-forma-simples-para-consumir-servicos/)
+- [Rest Template](https://www.ti-enxame.com/pt/java/como-post-forma-dados-com-spring-resttemplate/825640550/)
+- [Diferenças Feign e Rest Template](https://www.ti-enxame.com/pt/spring-boot/quais-sao-vantagens-e-desvantagens-do-uso-de-simulacao-em-relacao-ao-resttemplate/835724322/)
+
+#### Tarefa Endereços
+
+- Implementar um segundo controller `AddressController` com um CRUD de cadastro de endereços para usuarios cadastrados, usando o [serviço da VIACEP](https://viacep.com.br/) para buscar um endereço baseado no seu CEP.
+
+*Essa implementação vai envolver não apenas um Controller, mas um AddressService, Address DAO e DTOS, assim que AddressRepository.*
+
+- Implementar os testes unitários das camadas de `Service` e `Controller` relacionados a entidade de `Address`.
 
 ## Bônus
 
