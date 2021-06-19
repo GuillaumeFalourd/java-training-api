@@ -137,8 +137,8 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 
 Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver dentro da lista abaixo:
 
-- [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/ENDERECO.md): Nível 1.
-- [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/BANCO.md): Nível 2.
+- Nível 1: [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/ENDERECO.md)
+- Nível 2: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/BANCO.md)
 
 ## Bônus
 
