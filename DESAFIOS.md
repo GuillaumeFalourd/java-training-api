@@ -137,6 +137,22 @@ Seguem algumas referências a respeito:
 
 - Implementar os testes unitários das camadas de `Service` e `Controller` relacionados a entidade de `Address`.
 
+## Quinta Parte
+
+### Documentação
+
+Uma das habilidades mais importantes que um bom profissional de software deve ter é da escrita de documentações de alta qualidade. Para muitos, essa é uma tarefa difícil e traumática. Por exemplo, se uma API não for bem documentada, provavelmente, seus usuários encontrarão dificuldades para entender o seu funcionamento. Isso certamente influenciará na utilização dos serviços oferecidos em sua API. 
+
+Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo você automatizar a criação da sua documentação:
+
+- [Dev Eficiente - Configure e utilize o Swagger para documentar e testar seus endpoints](https://www.youtube.com/watch?v=0KCuW3ntI-U)
+- [Documentando uma API Spring Boot com o Swagger](https://www.treinaweb.com.br/blog/documentando-uma-api-spring-boot-com-o-swagger)
+- [Spring Boot e Swagger, documentando e testando a sua API REST](http://www.ciceroednilson.com.br/spring-boot-e-swagger-documentando-e-testando-a-sua-api-rest/)
+
+#### Tarefa
+
+- Automatizar a documentação dos endpoints da API usando `Swagger`.
+
 ## Bônus
 
 Quando trabalhamos com Java e Banco de Dados (BDD), é muito importante ter um conhecimento básico sobre SQL pois é necessário interagir com o BDD no cotidiano para buscar informações ou resolver problemas.
