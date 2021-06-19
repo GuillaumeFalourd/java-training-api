@@ -2,7 +2,7 @@
 
 Esse arquivos contem sugestões de desafios para melhorar a API contida nesse repositório.
 
-**Após cada parte deste desafio, como entrega dessa atividade, me envie o link do repositório criado (no LinkedIn ou por email).**
+**Após cada parte deste desafio, como entrega da atividade, podem enviar o link do repositório criado (no LinkedIn ou por email).**
 
 ## O que melhorar nesta API?
 
