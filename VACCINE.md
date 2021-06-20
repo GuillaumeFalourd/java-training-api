@@ -4,6 +4,8 @@ Para seguir com as atividades desse arquivo, é preciso ter realizado previament
 
 **Após cada parte deste desafio, como entrega da atividade, enviar o link do repositório criado (no LinkedIn ou por email).**
 
+* * *
+
 ## Vacinas
 
 ### Integrações
@@ -42,6 +44,8 @@ Campo | Obrigótorio | Observação
 - Não deve ser possível ter 2 vacinas com o mesmo nome.
 - Pode ter várias vacinas para a mesma doença.
 - A descrição da doença que a vacina cura deve ser preenchida se retornada pelo serviço da [MediaWiki](https://documenter.getpostman.com/view/4692440/RWEmKHEN#1279e688-9a11-424b-bd15-be1ca9e4cf7f), senão deve ser salvo com o valor `N/A`.
+
+* * *
 
 #### Tarefa: Aplicação de Vacinas
 
