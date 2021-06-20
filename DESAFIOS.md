@@ -18,6 +18,8 @@ Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaix
 - [Introdução ao Padrão MVC](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308)
 - [Evolução do MVC para REST](https://imasters.com.br/devsecops/a-evolucao-do-mvc-para-rest#:~:text=Em%20outras%20palavras%2C%20REST%20garante,sem%20acoplamento%20entre%20as%20partes.&text=Isso%20garante%20que%20podemos%20construir,quem%20vai%20usar%20estes%20dados)
 
+* * *
+
 ## 1️⃣ Primeira parte
 
 Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do projeto, e completar o CRUD (Create, Read, Update e Delete) do Controller.
@@ -49,6 +51,8 @@ Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do 
 - Complete o CRUD com os endpoints de `UPDATE` e `DELETE` usando o CPF como *PathVariable*.
   - Atual: *POST + GET*
   - Esperado: *POST + GET + PUT + DELETE*
+
+* * *
 
 ## 2️⃣ Segunda parte
 
@@ -85,6 +89,8 @@ Seguem algumas referências a respeito:
 
 - Atualize as anotações necessárias para validar o formato dos campos de `CPF`, `EMAIL` e `NOME` do DTO de requisição (UserForm).
 
+* * *
+
 ## 3️⃣ Terceira parte
 
 ### Tratamento de Exceções
@@ -117,6 +123,8 @@ Seguem algumas referências:
 
 - Implementar os testes unitários da camada de `Service` e de `Controller` da API.
 
+* * *
+
 ## 4️⃣ Quarta parte
 
 ### Documentação
@@ -133,6 +141,8 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 
 - Automatizar a documentação dos endpoints da API usando `Swagger`.
 
+* * *
+
 ## 5️⃣ Quinta Parte
 
 Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver dentro da lista abaixo:
@@ -141,7 +151,9 @@ Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de 
 - Nível 2: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/VACCINE.md)
 - Nível 3: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/BANCO.md)
 
-## Bônus
+* * *
+
+## 💡 Bônus
 
 Quando trabalhamos com Java e Banco de Dados (BDD), é muito importante ter um conhecimento básico sobre SQL pois é necessário interagir com o BDD no cotidiano para buscar informações ou resolver problemas.
 

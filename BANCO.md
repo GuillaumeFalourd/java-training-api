@@ -4,6 +4,8 @@ Para seguir com as atividades desse arquivo, é preciso ter realizado previament
 
 **Após cada parte deste desafio, como entrega da atividade, enviar o link do repositório criado (no LinkedIn ou por email).**
 
+* * *
+
 ## Banco
 
 ### Integrações
@@ -39,6 +41,8 @@ Campo | Obrigótorio | Observação
 - O usuário só pode ter uma conta.
 - A relação entre a entidade de usuário e a entidade de conta deve ser feita pelo **CPF do usuário**. Seguem algumas referências abaixo:
   - [Chaves primaria e estrangeira SQL](https://www.devmedia.com.br/sql-aprenda-a-utilizar-a-chave-primaria-e-a-chave-estrangeira/37636)
+
+* * *
 
 #### Tarefa: Camada de Operações
 

@@ -4,6 +4,8 @@ Para seguir com as atividades desse arquivo, é preciso ter realizado previament
 
 **Após cada parte deste desafio, como entrega da atividade, enviar o link do repositório criado (no LinkedIn ou por email).**
 
+* * *
+
 ## Endereços
 
 ### Integrações
