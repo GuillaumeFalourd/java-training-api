@@ -42,7 +42,7 @@ Campo | Obrigótorio | Observação
 
 #### Tarefa: Camada de Operações
 
-- Implementar um segundo controller `OperationController` com um conjunto de endpoints permitindo:
+- Implementar um terceiro controller `OperationController` com um conjunto de endpoints permitindo:
   - depositar dinheiro numa conta
   - saquar dinheiro de uma conta
   - transferir dinheiro para uma outra conta
