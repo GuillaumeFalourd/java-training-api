@@ -145,7 +145,7 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 
 ## 5️⃣ Quinta Parte
 
-Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver dentro da lista abaixo:
+Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver baseado nele, dentro da lista abaixo:
 
 - Nível 1: [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/ENDERECO.md)
 - Nível 2: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VACCINE.md)
