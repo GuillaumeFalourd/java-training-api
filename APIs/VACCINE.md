@@ -1,4 +1,4 @@
-# CRUD Vacinas
+# API de Vacinas
 
 Para seguir com as atividades desse arquivo, é preciso ter realizado previamente as 4 primeiras partes do arquivo [DESAFIOS.md](https://github.com/GuillaumeFalourd/java-training-api/tree/main/DESAFIOS.md).
 
