@@ -9,11 +9,13 @@ Esse arquivos contem sugestões de desafios para melhorar a API contida nesse re
 Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaixo para alinhar o conhecimento sobre Java, REST, Spring, SOLID e o padrão MVC (Model View Controller):
 
 - [Patterns Java Orientação a Objetos](https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162)
+- [Programação Orientada a Objetos (POO)](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
 - [Polimorfismo (Java)](https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140#:~:text=Polimorfismo%20significa%20%22muitas%20formas%22%2C,diferentes%20ao%20receber%20uma%20mensagem)
 - [Herança + Interfaces (Java)](https://www.alura.com.br/conteudo/java-heranca-interfaces-polimorfismo?gclid=Cj0KCQjws-OEBhCkARIsAPhOkIYTKKe6f3i2zrECbjlY-KyQUQfT1E1mLSWcznn0gFyP7HKI0tKPfVwaAsVCEALw_wcB)
 - [REST](https://www.devmedia.com.br/rest-tutorial/28912)
-- [SPRING-BOOT](https://www.zup.com.br/blog/spring-boot)
+- [SPRING-BOOT, como começar?](https://www.zup.com.br/blog/spring-boot)
 - [SOLID](https://www.eduardopires.net.br/2013/04/orientacao-a-objeto-solid/#:~:text=SOLID%20%C3%A9%20um%20acr%C3%B4nimo%20dos,poderiam%20se%20encaixar%20nesta%20palavra)
+- [SOLID para Devs de alta performance](https://www.zup.com.br/blog/solid-devs-de-alta-performance)
 - [MVC](https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2)
 - [Introdução ao Padrão MVC](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308)
 - [Evolução do MVC para REST](https://imasters.com.br/devsecops/a-evolucao-do-mvc-para-rest#:~:text=Em%20outras%20palavras%2C%20REST%20garante,sem%20acoplamento%20entre%20as%20partes.&text=Isso%20garante%20que%20podemos%20construir,quem%20vai%20usar%20estes%20dados)
@@ -114,7 +116,8 @@ Testes unitários aumentam a qualidade de nosso codigo, eles testam o funcioname
 Seguem algumas referências:
 
 - [JUnit Tutorial](https://www.devmedia.com.br/junit-tutorial/1432)
-- [JUnit](https://www.devmedia.com.br/junit-tutorial/1432)
+- [JUnit](https://www.devmedia.com.br/junit-tutorial/1432)\
+- [JUnit e os seus primeiros testes](https://medium.com/@guilhermemarcionilo/usando-junit-e-como-come%C3%A7ar-os-seus-primeiros-testes-unit%C3%A1rios-d06db19d5688)
 - [Basico Mockito](https://inside.contabilizei.com.br/conceitos-basicos-sobre-mockito-73b931ce0c2c)
 - [Testando codigo Java com Mockito](https://medium.com/cwi-software/testando-seu-c%C3%B3digo-java-com-o-mockito-framework-8bea7287460a)
 - [Testes Unitarios em Controller](https://dev.to/luizleite_/como-fazer-testes-unitarios-em-controllers-de-um-app-spring-boot-1bbm)
