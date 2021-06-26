@@ -111,7 +111,7 @@ Seguem algumas referências:
 
 ### Testes Unitários
 
-Testes unitários aumentam a qualidade de nosso codigo, eles testam o funcionamento de nossos métodos, um cenário de cada vez (sucessos e erros).
+Testes unitários aumentam a qualidade de nosso código, eles testam o funcionamento de nossos métodos, um cenário de cada vez (sucessos e erros).
 
 Seguem algumas referências:
 
@@ -119,7 +119,7 @@ Seguem algumas referências:
 - [JUnit](https://www.devmedia.com.br/junit-tutorial/1432)\
 - [JUnit e os seus primeiros testes](https://medium.com/@guilhermemarcionilo/usando-junit-e-como-come%C3%A7ar-os-seus-primeiros-testes-unit%C3%A1rios-d06db19d5688)
 - [Basico Mockito](https://inside.contabilizei.com.br/conceitos-basicos-sobre-mockito-73b931ce0c2c)
-- [Testando codigo Java com Mockito](https://medium.com/cwi-software/testando-seu-c%C3%B3digo-java-com-o-mockito-framework-8bea7287460a)
+- [Testando código Java com Mockito](https://medium.com/cwi-software/testando-seu-c%C3%B3digo-java-com-o-mockito-framework-8bea7287460a)
 - [Testes Unitarios em Controller](https://dev.to/luizleite_/como-fazer-testes-unitarios-em-controllers-de-um-app-spring-boot-1bbm)
 
 #### Tarefa ⚙️
@@ -150,9 +150,10 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 
 Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de gerenciamento de usuário, escolhe qual tipo de API desenvolver baseado nele, dentro da lista abaixo:
 
-- Nível 1: [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/ENDERECO.md)
-- Nível 2: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VACCINE.md)
-- Nível 3: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/BANCO.md)
+- Nível 1: [API de Loteria](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/LOTERIA.md)
+- Nível 2: [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/ENDERECO.md)
+- Nível 3: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VACINA.md)
+- Nível 4: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/BANCO.md)
 
 * * *
 
