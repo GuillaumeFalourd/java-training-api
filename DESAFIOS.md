@@ -19,6 +19,7 @@ Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaix
 - [MVC](https://www.devmedia.com.br/padrao-mvc-java-magazine/21995#2)
 - [Introdução ao Padrão MVC](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308)
 - [Evolução do MVC para REST](https://imasters.com.br/devsecops/a-evolucao-do-mvc-para-rest#:~:text=Em%20outras%20palavras%2C%20REST%20garante,sem%20acoplamento%20entre%20as%20partes.&text=Isso%20garante%20que%20podemos%20construir,quem%20vai%20usar%20estes%20dados)
+- [Conceitos Spring Data Jpa](https://ulyssesuchoa.medium.com/spring-data-jpa-445dbfbb70f0)
 
 * * *
 
