@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 
 import br.com.training.model.User;
-import br.com.training.repository.UserRepository;
 
 @RestController
 @RestControllerAdvice
