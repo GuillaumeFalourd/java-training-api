@@ -2,12 +2,14 @@ package br.com.training.controller;
 
 import javax.validation.Valid;
 
+import br.com.training.service.UserService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 
 import br.com.training.model.User;
-import br.com.training.repository.UserRepository;
+
+import java.util.Optional;
 
 @RestController
 @RestControllerAdvice
@@ -15,18 +17,24 @@ import br.com.training.repository.UserRepository;
 public class UserController {
 
 	@Autowired
-	private UserRepository userRepository;
+	private UserService userService;
 
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public User createUser(@RequestBody @Valid User user) {
-		return userRepository.save(user);
+		return userService.save(user);
 	}
 
 	@GetMapping (value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
-    public User getUser (@PathVariable String cpf){
-        return userRepository.findByCpf(cpf);
+    public Optional<User> getUser (@PathVariable String cpf) {
+        return userService.findByCpf(cpf);
     }
+
+    @PutMapping(value = "/{cpf}")
+	@ResponseStatus(HttpStatus.OK)
+	public User updateUser (@RequestBody @Valid User user, @PathVariable String cpf) {
+		return userService.updateByCpf(user, cpf);
+	}
 
 }

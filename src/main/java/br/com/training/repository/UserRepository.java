@@ -5,9 +5,11 @@ import org.springframework.stereotype.Repository;
 
 import br.com.training.model.User;
 
+import java.util.Optional;
+
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
-    User findByCpf(String cpf);
+    Optional<User> findByCpf(String cpf);
 
 }
