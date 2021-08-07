@@ -7,17 +7,14 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
 public class UserService {
 
     @Resource
-    private final UserRepository userRepository;
-
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+    private UserRepository userRepository;
 
     @Transactional
     public User save(User user) {
@@ -27,6 +24,11 @@ public class UserService {
     @Transactional
     public Optional<User> findByCpf(String cpf) {
         return userRepository.findByCpf(cpf);
+    }
+
+    @Transactional
+    public List<User> listAll() {
+        return userRepository.findAll();
     }
 
     @Transactional
@@ -47,4 +49,14 @@ public class UserService {
                     return userRepository.save(user);
                 });
     }
+
+    @Transactional
+    public void deleteByCpf(String cpf) {
+        Optional<User> foundUser = findByCpf(cpf);
+        if (!foundUser.isPresent()) {
+            System.out.println("No CPF encountered!");
+        }
+        userRepository.deleteByCpf(cpf);
+    }
+
 }

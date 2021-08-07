@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 
 import br.com.training.model.User;
 
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -31,10 +32,22 @@ public class UserController {
         return userService.findByCpf(cpf);
     }
 
+    @GetMapping
+    @ResponseStatus(HttpStatus.ACCEPTED)
+	public List<User> getAllUsers () {
+		return userService.listAll();
+	}
+
     @PutMapping(value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
 	public User updateUser (@RequestBody @Valid User user, @PathVariable String cpf) {
 		return userService.updateByCpf(user, cpf);
+	}
+
+	@DeleteMapping(value = "/{cpf}")
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void updateUser (@PathVariable String cpf) {
+		userService.deleteByCpf(cpf);
 	}
 
 }
