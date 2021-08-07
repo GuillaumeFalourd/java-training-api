@@ -9,6 +9,8 @@ import org.springframework.http.HttpStatus;
 
 import br.com.training.model.User;
 
+import java.util.Optional;
+
 @RestController
 @RestControllerAdvice
 @RequestMapping("/users")
@@ -25,8 +27,14 @@ public class UserController {
 
 	@GetMapping (value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
-    public User getUser (@PathVariable String cpf){
+    public Optional<User> getUser (@PathVariable String cpf) {
         return userService.findByCpf(cpf);
     }
+
+    @PutMapping(value = "/{cpf}")
+	@ResponseStatus(HttpStatus.OK)
+	public User updateUser (@RequestBody @Valid User user, @PathVariable String cpf) {
+		return userService.updateByCpf(user, cpf);
+	}
 
 }
