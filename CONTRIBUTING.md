@@ -3,7 +3,7 @@
 Valorizamos suas contribuições e queremos torná-lo o mais fácil quanto possível para trabalhar neste repositório. 
 Uma das primeiras coisas a decidir é em qual `branch` basear seu trabalho. 
 Se você ficar confuso, basta perguntar e nós iremos ajuda. 
-Se um revisor perceber que você baseou seu trabalho na `branch` errada, nós iremos informá-lo para que você possa rebase-lo.
+Se um revisor perceber que você baseou seu trabalho na `branch` errada, iremos informá-lo para que você possa rebase-lo.
 
 ## Novas funcionalidades para o projeto
 
