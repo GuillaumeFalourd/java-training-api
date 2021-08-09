@@ -155,6 +155,7 @@ Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de 
 - Nível 2: [API de Endereços](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/ENDERECO.md)
 - Nível 3: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VACINA.md)
 - Nível 4: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/BANCO.md)
+- Nível 5: [API de Veículos](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VEICULOS.md)
 
 * * *
 
