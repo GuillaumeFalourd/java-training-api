@@ -55,10 +55,11 @@ Final 4-5: quarta-feira
 Final 6-7: quinta-feira
 Final 8-9: sexta-feira
 
-**rotationDay** | SIM | ex: `segunda-feira` (dia que o carro não pode andar na rua)
-
 2. Também devemos criar um atributo de `rodízio` ativo, onde a data atual do sistema será comparada com as condicionais anteriores, onde, quando for o dia ativo do rodizio retornar true, caso contrario, false.
 
+Campo | Obrigótorio | Observação
+------------ | ------------  | -------------
+**rotationDay** | SIM | ex: `segunda-feira` (dia que o carro não pode andar na rua)
 **rotation** | SIM | ex: `true` (se é (ou não) o dia do carro não poder andar na rua)
 
 * * *
