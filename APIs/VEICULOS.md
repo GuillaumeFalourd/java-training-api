@@ -49,11 +49,11 @@ No endpoint que irá listar os veículos, devemos considerar algumas configuraç
 Para isso, vamos criar dois novos atributos no objeto do carro, sendo eles:
 
 1. `Dia do rodízio` do carro, baseado no último número do ano do veículo, considerando as condicionais:
-Final 0-1: segunda-feira
-Final 2-3: terça-feira
-Final 4-5: quarta-feira
-Final 6-7: quinta-feira
-Final 8-9: sexta-feira
+  - Final 0-1: segunda-feira
+  - Final 2-3: terça-feira
+  - Final 4-5: quarta-feira
+  - Final 6-7: quinta-feira
+  - Final 8-9: sexta-feira
 
 2. Também devemos criar um atributo de `rodízio` ativo, onde a data atual do sistema será comparada com as condicionais anteriores, onde, quando for o dia ativo do rodizio retornar true, caso contrario, false.
 
