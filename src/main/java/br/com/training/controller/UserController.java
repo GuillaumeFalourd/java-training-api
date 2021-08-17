@@ -17,29 +17,28 @@ import br.com.training.repository.UserRepository;
 public class UserController {
 
 	@Autowired
-	private UserRepository userRepository;
-
-	@Autowired
 	private UserService userService;
 
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public User createUser(@RequestBody @Valid User user) {
-		return userRepository.save(user);
+		return userService.createUser(user);
 	}
 
 	@GetMapping (value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
     public User getUser (@PathVariable String cpf){
-        return userRepository.findByCpf(cpf);
+        return userService.getUser(cpf);
     }
 
-	@PutMapping(value = "/{userId}")
-	public ResponseEntity<?> updateUser(@PathVariable Long userId, @RequestBody @Valid User user){
-		return userService.updateUser(userId, user);
+	@PutMapping(value = "/{cpf}")
+	@ResponseStatus(HttpStatus.OK)
+	public ResponseEntity<?> updateUser(@PathVariable String cpf, @RequestBody @Valid User user){
+		return userService.updateUser(cpf, user);
 	}
 
 	@DeleteMapping(value = "/{cpf}")
+	@ResponseStatus(HttpStatus.OK)
 	public ResponseEntity<?> deleteUser(@PathVariable String cpf){return userService.deleteUser(cpf); }
 
 }

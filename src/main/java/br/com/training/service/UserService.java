@@ -15,30 +15,39 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public ResponseEntity<?> updateUser(Long userId, User user){
-        Optional<User> userAtual = userRepository.findById(userId);
+    public User createUser(User user){
+        return userRepository.save(user);
+    }
 
-        if (userAtual.isEmpty()){
-            return ResponseEntity.badRequest().body(String.format("Usuário com ID %s não encontrado!", userId));
+    public User getUser(String cpf){
+        return userRepository.findByCpf(cpf).get();
+    }
+
+    public ResponseEntity<?> updateUser(String cpf, User user){
+        Optional<User> userAtual = userRepository.findByCpf(cpf);
+
+        if (userAtual.isPresent()) {
+            BeanUtils.copyProperties(user, userAtual.get(), "id");
+
+            User userUpdated = userRepository.save(userAtual.get());
+
+            return ResponseEntity.ok(userUpdated);
         }
 
-        BeanUtils.copyProperties(user, userAtual.get(),"id");
+        return ResponseEntity.badRequest().body(String.format("Usuário com CPF %s não encontrado!", cpf));
 
-        User userUpdated = userRepository.save(userAtual.get());
-
-        return ResponseEntity.ok(userUpdated);
     }
 
     public ResponseEntity<?> deleteUser(String cpf){
-        User user = userRepository.findByCpf(cpf);
+        Optional<User> user = userRepository.findByCpf(cpf);
 
-        if (user == null){
-            return ResponseEntity.badRequest().body(String.format("Usuário com o CPF %s não existe", cpf));
+        if (user.isPresent()) {
+            userRepository.deleteById(user.get().getId());
+
+            return ResponseEntity.ok().build();
         }
 
-        userRepository.deleteById(user.getId());
-
-        return ResponseEntity.ok().build();
+        return ResponseEntity.badRequest().body(String.format("Usuário com o CPF %s não existe", cpf));
     }
 
 }
