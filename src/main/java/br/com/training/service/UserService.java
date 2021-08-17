@@ -19,8 +19,13 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public User getUser(String cpf){
-        return userRepository.findByCpf(cpf).get();
+    public ResponseEntity<?> getUser(String cpf){
+        Optional<User> user = userRepository.findByCpf(cpf);
+
+        if (user.isPresent()) {
+            return ResponseEntity.ok(user.get());
+        }
+        return ResponseEntity.badRequest().body(String.format("Usuário com CPF %s não encontrado!", cpf));
     }
 
     public ResponseEntity<?> updateUser(String cpf, User user){
