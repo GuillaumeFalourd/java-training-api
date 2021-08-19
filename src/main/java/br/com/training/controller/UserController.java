@@ -26,17 +26,18 @@ public class UserController {
 	@GetMapping (value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
     public ResponseEntity<?>getUser (@PathVariable String cpf){
-        return userService.getUser(cpf);
+        return ResponseEntity.ok(userService.getUser(cpf));
     }
 
 	@PutMapping(value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
 	public ResponseEntity<?> updateUser(@PathVariable String cpf, @RequestBody @Valid User user){
-		return userService.updateUser(cpf, user);
+		User userUpdated = userService.updateUser(cpf, user);
+		return ResponseEntity.ok(userUpdated);
 	}
 
 	@DeleteMapping(value = "/{cpf}")
 	@ResponseStatus(HttpStatus.OK)
-	public ResponseEntity<?> deleteUser(@PathVariable String cpf){return userService.deleteUser(cpf); }
+	public void deleteUser(@PathVariable String cpf){userService.deleteUser(cpf); }
 
 }

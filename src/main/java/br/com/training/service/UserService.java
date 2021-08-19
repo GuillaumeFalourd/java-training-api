@@ -4,10 +4,7 @@ import br.com.training.model.User;
 import br.com.training.repository.UserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 public class UserService {
@@ -19,40 +16,24 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public ResponseEntity<?> getUser(String cpf){
-        Optional<User> user = userRepository.findByCpf(cpf);
-
-        if (user.isPresent()) {
-            return ResponseEntity.ok(user.get());
-        }
-        return ResponseEntity.badRequest().body(String.format("Usuário com CPF %s não encontrado!", cpf));
+    public User getUser(String cpf){
+        return userRepository.findByCpf(cpf);
     }
 
-    public ResponseEntity<?> updateUser(String cpf, User user){
-        Optional<User> userAtual = userRepository.findByCpf(cpf);
+    public User updateUser(String cpf, User user){
+        User userAtual = userRepository.findByCpf(cpf);
 
-        if (userAtual.isPresent()) {
-            BeanUtils.copyProperties(user, userAtual.get(), "id");
+        BeanUtils.copyProperties(user, userAtual, "id");
 
-            User userUpdated = userRepository.save(userAtual.get());
+        User userUpdated = userRepository.save(userAtual);
 
-            return ResponseEntity.ok(userUpdated);
-        }
-
-        return ResponseEntity.badRequest().body(String.format("Usuário com CPF %s não encontrado!", cpf));
+        return userUpdated;
 
     }
 
-    public ResponseEntity<?> deleteUser(String cpf){
-        Optional<User> user = userRepository.findByCpf(cpf);
-
-        if (user.isPresent()) {
-            userRepository.deleteById(user.get().getId());
-
-            return ResponseEntity.ok().build();
-        }
-
-        return ResponseEntity.badRequest().body(String.format("Usuário com o CPF %s não existe", cpf));
+    public void deleteUser(String cpf){
+        User user = userRepository.findByCpf(cpf);
+        userRepository.deleteById(user.getId());
     }
 
 }
