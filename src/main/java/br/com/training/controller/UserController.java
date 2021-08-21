@@ -37,7 +37,7 @@ public class UserController {
 	}
 
 	@DeleteMapping(value = "/{cpf}")
-	@ResponseStatus(HttpStatus.OK)
+	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void deleteUser(@PathVariable String cpf){userService.deleteUser(cpf); }
 
 }
