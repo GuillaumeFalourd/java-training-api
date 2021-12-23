@@ -69,6 +69,7 @@ Seguem algumas referências a respeito:
 - [DTO](https://medium.com/@msealvial/blindando-sua-api-spring-boot-com-o-padr%C3%A3o-dto-44f97020d1a0)
 - [Restrições DTOs](https://dev.to/renatasfraga/java-annotations-no-spring-crie-restricoes-em-suas-dtos-2nfj)
 - [DTO e Entidade](https://cursos.alura.com.br/forum/topico-caracteristicas-das-colunas-das-entidades-nos-formularios-dtos-no-momento-da-validacao-88815)
+- [Diferença entre os patterns PO, POJO, BO, DTO e VO](https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162)
 
 #### Tarefa 🏗
 
@@ -117,7 +118,7 @@ Testes unitários aumentam a qualidade de nosso código, eles testam o funcionam
 Seguem algumas referências:
 
 - [JUnit Tutorial](https://www.devmedia.com.br/junit-tutorial/1432)
-- [JUnit](https://www.devmedia.com.br/junit-tutorial/1432)\
+- [JUnit](https://www.devmedia.com.br/junit-tutorial/1432)
 - [JUnit e os seus primeiros testes](https://medium.com/@guilhermemarcionilo/usando-junit-e-como-come%C3%A7ar-os-seus-primeiros-testes-unit%C3%A1rios-d06db19d5688)
 - [Basico Mockito](https://inside.contabilizei.com.br/conceitos-basicos-sobre-mockito-73b931ce0c2c)
 - [Testando código Java com Mockito](https://medium.com/cwi-software/testando-seu-c%C3%B3digo-java-com-o-mockito-framework-8bea7287460a)
@@ -156,6 +157,12 @@ Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de 
 - Nível 3: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VACINA.md)
 - Nível 4: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/BANCO.md)
 - Nível 5: [API de Veículos](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VEICULOS.md)
+
+## 6️⃣ Sexta Parte
+
+Caso tenha implementado a quinta parte toda e quiser ir além, segue um sugestão de melhoria do nível 2 (API de cadastro de endereços)
+
+- [API de Imobiliária](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/IMOBILIARIA.md)
 
 * * *
 
