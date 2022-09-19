@@ -88,6 +88,7 @@ Seguem algumas referências a respeito:
 - [Validar CPF](https://www.devmedia.com.br/validando-o-cpf-em-uma-aplicacao-java/22097)
 - [Regex](https://medium.com/@alexandreservian/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f)
 - [Mapeamento Hibernate (DAO)](https://www.devmedia.com.br/mapeamento-hibernate-configurando-tabelas-e-colunas/29526)
+- [Validando requisições e tratando exceções no Spring Boot](https://marioalvial.medium.com/validando-requisi%C3%A7%C3%B5es-e-tratando-exce%C3%A7%C3%B5es-no-spring-boot-1750ddb1e1cc)
 
 #### Tarefa ♻️
 
